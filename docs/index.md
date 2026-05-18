@@ -56,6 +56,7 @@ features:
 ## 鸣谢
 
 - [StarLight.Core](https://github.com/Ink-Marks-Studio/StarLight.Core) -- 模块化架构参考
+- [PCL2](https://github.com/Hex-Dragon/PCL2) -- UI 排版参考
 - [BMCLAPI](https://bmclapi2.bangbang93.com) -- Minecraft 版本文件国内镜像
 - [Fabric Meta API](https://meta.fabricmc.net) -- Fabric 版本元数据
 - [CurseForge API](https://docs.curseforge.com) -- Mod 资源平台

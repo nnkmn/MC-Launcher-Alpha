@@ -56,6 +56,7 @@ features:
 ## Acknowledgements
 
 - [StarLight.Core](https://github.com/Ink-Marks-Studio/StarLight.Core) -- Modular architecture reference
+- [PCL2](https://github.com/Hex-Dragon/PCL2) -- UI layout reference
 - [BMCLAPI](https://bmclapi2.bangbang93.com) -- Minecraft version file mirror (China)
 - [Fabric Meta API](https://meta.fabricmc.net) -- Fabric version metadata
 - [CurseForge API](https://docs.curseforge.com) -- Mod resource platform
