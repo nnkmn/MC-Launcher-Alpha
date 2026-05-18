@@ -1,9 +1,9 @@
 ---
 layout: home
-title: "MCLa - Minecraft Launcher Advanced"
+title: "MC Launcher Alpha - Minecraft Launcher Advanced"
 hero:
-  name: "MCLa"
-  text: "Minecraft Launcher Advanced"
+  name: "MC Launcher Alpha"
+  text: "新一代 Minecraft 启动器"
   tagline: "一个现代化的 Minecraft 启动器，基于 Electron + Vue 3 + TypeScript 构建"
   actions:
     - theme: brand
@@ -11,30 +11,38 @@ hero:
       link: /guide/
     - theme: alt
       text: GitHub
-      link: https://github.com/nnkmn/MCLA
+      link: https://github.com/nnkmn/MC-Launcher-Alpha
 
 features:
   - icon: "\u26A1"
     title: 微软正版登录
     details: 支持 Device Code Flow 认证流程，token 自动刷新，多账户无缝切换，离线模式可用。
+    link: /guide/accounts
   - icon: "\uD83C\uDFAE"
     title: 游戏启动
     details: 完整的游戏启动流程，自动拼装 Java 参数，启动进度实时推送，支持自定义启动配置。
+    link: /guide/quick-start
   - icon: "\uD83D\uDCE6"
     title: 版本管理
     details: 多版本隔离存储，集成 BMCLAPI 版本列表，支持一键安装与删除，快照版本可选。
+    link: /guide/versions
   - icon: "\uD83D\uDD27"
     title: ModLoader 安装
     details: 支持 Fabric / Forge / NeoForge / Quilt 四大主流 ModLoader，一键安装，自动匹配版本。
+    link: /guide/versions
   - icon: "\uD83D\uDCDA"
     title: Mod 管理
     details: 集成 CurseForge + Modrinth 双源搜索，支持 Mod 搜索、下载、启用禁用及配置编辑。
+    link: /guide/mods
   - icon: "\uD83C\uDF10"
     title: 实例系统
     details: 创建、导入、导出游戏实例，每个实例独立管理 Mod、配置和版本，互不干扰。
+    link: /guide/instances
 ---
 
-## 技术栈
+<div class="home-content">
+
+## 🛠️ 技术栈
 
 | 层级 | 技术 | 版本 |
 |------|------|------|
@@ -45,15 +53,15 @@ features:
 | 状态管理 | Pinia | 2.2+ |
 | 数据库 | better-sqlite3 | 11.0+ |
 
-## 支持平台
+## 📋 支持平台
 
 | 平台 | 状态 |
 |------|------|
-| Windows 10+ | :white_check_mark: 已支持 |
-| macOS | :hourglass: 计划中 |
-| Linux | :hourglass: 计划中 |
+| Windows 10+ | ✅ 已支持 |
+| macOS | ⏳ 计划中 |
+| Linux | ⏳ 计划中 |
 
-## 鸣谢
+## 🙏 鸣谢
 
 - [StarLight.Core](https://github.com/Ink-Marks-Studio/StarLight.Core) -- 模块化架构参考
 - [PCL2](https://github.com/Hex-Dragon/PCL2) -- UI 排版参考
@@ -62,10 +70,27 @@ features:
 - [CurseForge API](https://docs.curseforge.com) -- Mod 资源平台
 - [Modrinth API](https://docs.modrinth.com) -- Mod 资源平台
 
-## 协议
+## 📄 协议
 
-本项目基于 [MIT 协议](https://github.com/nnkmn/MCLA/blob/main/LICENSE) 开源。
+本项目基于 [MIT 协议](https://github.com/nnkmn/MC-Launcher-Alpha/blob/main/LICENSE) 开源。
 
-## 作者
+## 👤 作者
 
 **nnkmn (EccenTri)** -- [GitHub](https://github.com/nnkmn)
+
+</div>
+
+<style>
+.home-content {
+  max-width: 768px;
+  margin: 0 auto;
+  padding: 0 24px 48px;
+}
+.home-content h2 {
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin-top: 40px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid var(--vp-c-border);
+}
+</style>

@@ -1,9 +1,9 @@
 ---
 layout: home
-title: "MCLa - Minecraft Launcher Advanced"
+title: "MC Launcher Alpha - Minecraft Launcher Advanced"
 hero:
-  name: "MCLa"
-  text: "Minecraft Launcher Advanced"
+  name: "MC Launcher Alpha"
+  text: "A Next-Gen Minecraft Launcher"
   tagline: "A modern Minecraft launcher built with Electron + Vue 3 + TypeScript"
   actions:
     - theme: brand
@@ -11,30 +11,38 @@ hero:
       link: /en/guide/
     - theme: alt
       text: GitHub
-      link: https://github.com/nnkmn/MCLA
+      link: https://github.com/nnkmn/MC-Launcher-Alpha
 
 features:
   - icon: "\u26A1"
     title: Microsoft Authentication
     details: Device Code Flow authentication, automatic token refresh, seamless multi-account switching, offline mode support.
+    link: /en/guide/accounts
   - icon: "\uD83C\uDFAE"
     title: Game Launch
     details: Complete game launch pipeline with automatic Java argument assembly, real-time launch progress notifications, and custom launch configurations.
+    link: /en/guide/quick-start
   - icon: "\uD83D\uDCE6"
     title: Version Management
     details: Isolated multi-version storage, integrated BMCLAPI version list, one-click install and delete, snapshot version support.
+    link: /en/guide/versions
   - icon: "\uD83D\uDD27"
     title: ModLoader Installation
     details: One-click installation for Fabric / Forge / NeoForge / Quilt with automatic version matching.
+    link: /en/guide/versions
   - icon: "\uD83D\uDCDA"
     title: Mod Management
     details: Dual-source search via CurseForge + Modrinth. Search, download, enable/disable, and edit mod configurations.
+    link: /en/guide/mods
   - icon: "\uD83C\uDF10"
     title: Instance System
     details: Create, import, and export game instances. Each instance manages its own mods, configs, and versions independently.
+    link: /en/guide/instances
 ---
 
-## Tech Stack
+<div class="home-content">
+
+## 🛠️ Tech Stack
 
 | Layer | Technology | Version |
 |-------|-----------|---------|
@@ -45,15 +53,15 @@ features:
 | State Management | Pinia | 2.2+ |
 | Database | better-sqlite3 | 11.0+ |
 
-## Supported Platforms
+## 📋 Supported Platforms
 
 | Platform | Status |
 |----------|--------|
-| Windows 10+ | :white_check_mark: Supported |
-| macOS | :hourglass: Planned |
-| Linux | :hourglass: Planned |
+| Windows 10+ | ✅ Supported |
+| macOS | ⏳ Planned |
+| Linux | ⏳ Planned |
 
-## Acknowledgements
+## 🙏 Acknowledgements
 
 - [StarLight.Core](https://github.com/Ink-Marks-Studio/StarLight.Core) -- Modular architecture reference
 - [PCL2](https://github.com/Hex-Dragon/PCL2) -- UI layout reference
@@ -62,10 +70,27 @@ features:
 - [CurseForge API](https://docs.curseforge.com) -- Mod resource platform
 - [Modrinth API](https://docs.modrinth.com) -- Mod resource platform
 
-## License
+## 📄 License
 
-This project is open source under the [MIT License](https://github.com/nnkmn/MCLA/blob/main/LICENSE).
+This project is open source under the [MIT License](https://github.com/nnkmn/MC-Launcher-Alpha/blob/main/LICENSE).
 
-## Author
+## 👤 Author
 
 **nnkmn (EccenTri)** -- [GitHub](https://github.com/nnkmn)
+
+</div>
+
+<style>
+.home-content {
+  max-width: 768px;
+  margin: 0 auto;
+  padding: 0 24px 48px;
+}
+.home-content h2 {
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin-top: 40px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid var(--vp-c-border);
+}
+</style>

@@ -4,7 +4,7 @@ title: "更新日志"
 
 # 更新日志
 
-本文档记录了 MCLa 各版本的功能变更、修复内容和未来计划。
+本文档记录了 MC Launcher Alpha 各版本的功能变更、修复内容和未来计划。
 
 ---
 
@@ -45,11 +45,11 @@ title: "更新日志"
 
 ### 首个版本
 
-MCLa 的首个公开版本，包含以下核心功能：
+MC Launcher Alpha 的首个公开版本，包含以下核心功能：
 
 - **微软账号登录** -- 基于 OAuth 2.0 Device Code Flow 的微软正版登录，安全便捷
 - **离线模式** -- 支持自定义用户名的离线登录，适合单机游玩
-- **游戏版本管理** -- 基于 BMCLAPI 镜像源，支持正式版、快照、远古版和愚人节版的安装与管理
+- **游戏版本管理** -- 基于 BMC Launcher AlphaPI 镜像源，支持正式版、快照、远古版和愚人节版的安装与管理
 - **ModLoader 安装** -- 支持 Fabric / Forge / NeoForge / Quilt 四大主流 ModLoader 的一键安装
 - **基础实例系统** -- 支持创建独立实例，实现版本隔离和 Mod 隔离
 - **深色主题 UI** -- 现代化的深色界面设计，基于 Vue 3 + TypeScript 构建
@@ -75,5 +75,5 @@ MCLa 的首个公开版本，包含以下核心功能：
 :::
 
 ::: tip 参与贡献
-如果你希望为 MCLa 贡献代码或提出功能建议，欢迎前往 [GitHub](https://github.com/nnkmn/MCLA) 提交 Pull Request 或 Issue。
+如果你希望为 MC Launcher Alpha 贡献代码或提出功能建议，欢迎前往 [GitHub](https://github.com/nnkmn/MC-Launcher-Alpha) 提交 Pull Request 或 Issue。
 :::

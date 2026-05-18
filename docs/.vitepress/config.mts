@@ -2,19 +2,20 @@ import { defineConfig } from 'vitepress'
 
 export default defineConfig({
   base: '/MC-Launcher-Alpha/',
-  title: 'MCLa',
+  title: 'MCLA',
   head: [
     ['link', { rel: 'icon', href: '/logo.ico' }],
     ['meta', { name: 'theme-color', content: '#1a1a2e' }],
   ],
-  description: 'MCLa - Minecraft Launcher Advanced，一个现代化的 Minecraft 启动器',
-  titleTemplate: ':title - MCLa',
+  description: 'MCLA - Minecraft Launcher Advanced，一个现代化的 Minecraft 启动器',
+  titleTemplate: ':title - MCLA',
   lastUpdated: true,
 
   locales: {
     'zh': {
       label: '简体中文',
       lang: 'zh-CN',
+      link: '/',
       themeConfig: {
         outline: {
           label: '页面导航',
@@ -25,7 +26,7 @@ export default defineConfig({
           { text: '下载', link: '/guide/download' },
           {
             text: 'GitHub',
-            link: 'https://github.com/nnkmn/MCLA',
+            link: 'https://github.com/nnkmn/MC-Launcher-Alpha',
           },
         ],
         docFooter: {
@@ -34,10 +35,10 @@ export default defineConfig({
         },
         editLink: {
           text: '在 GitHub 上编辑此页',
-          pattern: 'https://github.com/nnkmn/MCLA/edit/main/docs/:path',
+          pattern: 'https://github.com/nnkmn/MC-Launcher-Alpha/edit/main/docs/:path',
         },
         footer: {
-          message: 'MCLa 基于 MIT 协议开源',
+          message: 'MCLA 基于 MIT 协议开源',
           copyright: 'Copyright © 2024-2026 nnkmn (EccenTri)',
         },
         search: {
@@ -112,7 +113,7 @@ export default defineConfig({
           { text: 'Download', link: '/en/guide/download' },
           {
             text: 'GitHub',
-            link: 'https://github.com/nnkmn/MCLA',
+            link: 'https://github.com/nnkmn/MC-Launcher-Alpha',
           },
         ],
         docFooter: {
@@ -121,10 +122,10 @@ export default defineConfig({
         },
         editLink: {
           text: 'Edit this page on GitHub',
-          pattern: 'https://github.com/nnkmn/MCLA/edit/main/docs/:path',
+          pattern: 'https://github.com/nnkmn/MC-Launcher-Alpha/edit/main/docs/:path',
         },
         footer: {
-          message: 'MCLa is open source under the MIT License',
+          message: 'MCLA is open source under the MIT License',
           copyright: 'Copyright © 2024-2026 nnkmn (EccenTri)',
         },
         search: {
@@ -190,7 +191,7 @@ export default defineConfig({
   themeConfig: {
     logo: '/logo.png',
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/nnkmn/MCLA' },
+      { icon: 'github', link: 'https://github.com/nnkmn/MC-Launcher-Alpha' },
     ],
   },
 })

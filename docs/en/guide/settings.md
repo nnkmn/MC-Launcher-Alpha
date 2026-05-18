@@ -1,10 +1,10 @@
----
+﻿---
 title: "Global Settings"
 ---
 
 # Global Settings
 
-MCLa provides a variety of global configuration options to meet your personalization needs.
+MC Launcher Alpha provides a variety of global configuration options to meet your personalization needs.
 
 ## General Settings
 

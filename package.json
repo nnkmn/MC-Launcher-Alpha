@@ -1,7 +1,7 @@
 {
   "name": "mc-launcher-alpha",
   "version": "1.0.0",
-  "description": "MCLa - Minecraft Launcher Advanced 官方文档网站",
+  "description": "MCLA - Minecraft Launcher Advanced 官方文档网站",
   "private": true,
   "scripts": {
     "docs:dev": "vitepress dev docs",

@@ -1,10 +1,10 @@
----
+﻿---
 title: "Account Management"
 ---
 
 # Account Management
 
-MCLa supports multiple login methods to suit different gameplay needs.
+MC Launcher Alpha supports multiple login methods to suit different gameplay needs.
 
 ## Supported Login Methods
 

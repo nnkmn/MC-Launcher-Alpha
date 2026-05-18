@@ -1,14 +1,14 @@
----
+﻿---
 title: "Java Settings"
 ---
 
 # Java Settings
 
-MCLa supports auto-detecting system Java installations, as well as manually specifying a Java path.
+MC Launcher Alpha supports auto-detecting system Java installations, as well as manually specifying a Java path.
 
 ## Auto-Detection
 
-When MCLa is launched for the first time, it automatically scans for installed Java versions on your system.
+When MC Launcher Alpha is launched for the first time, it automatically scans for installed Java versions on your system.
 
 Detection results are displayed on the **Settings** page.
 

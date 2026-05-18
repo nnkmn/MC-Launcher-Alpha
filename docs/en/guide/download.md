@@ -6,21 +6,21 @@ title: "Download & Install"
 
 ## Download
 
-Go to [GitHub Releases](https://github.com/nnkmn/MCLA/releases) to download the latest version of MCLa.
+Go to [GitHub Releases](https://github.com/nnkmn/MC-Launcher-Alpha/releases) to download the latest version of MC Launcher Alpha.
 
-Windows users should download `MCLa Setup x.x.x.exe` (NSIS installer).
+Windows users should download `MC Launcher Alpha Setup x.x.x.exe` (NSIS installer).
 
 ## Installation
 
-Run the downloaded `MCLa Setup x.x.x.exe` and follow the installation wizard to complete the setup.
+Run the downloaded `MC Launcher Alpha Setup x.x.x.exe` and follow the installation wizard to complete the setup.
 
-MCLa will launch automatically after installation.
+MC Launcher Alpha will launch automatically after installation.
 
 ## Build from Source
 
 ```bash
-git clone https://github.com/nnkmn/MCLA.git
-cd MCLA
+git clone https://github.com/nnkmn/MC-Launcher-Alpha.git
+cd MC Launcher Alpha
 npm install
 npm run dev
 ```
@@ -36,7 +36,7 @@ The build output is located in the `build/` directory.
 
 ## First Launch Checklist
 
-After launching MCLa for the first time:
+After launching MC Launcher Alpha for the first time:
 
 1. Go to the **Settings** page
 2. Verify that the Java path is correct (auto-detection is supported)

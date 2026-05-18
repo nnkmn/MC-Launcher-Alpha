@@ -4,11 +4,11 @@ title: "崩溃监控"
 
 # 崩溃监控
 
-MCLa 内置了崩溃监控系统，能够在游戏异常退出时自动捕获运行日志、分析错误原因，并给出修复建议。本章将介绍如何查看崩溃报告、理解报告内容以及处理常见的崩溃问题。
+MC Launcher Alpha 内置了崩溃监控系统，能够在游戏异常退出时自动捕获运行日志、分析错误原因，并给出修复建议。本章将介绍如何查看崩溃报告、理解报告内容以及处理常见的崩溃问题。
 
 ## 查看崩溃报告
 
-当游戏发生崩溃时，MCLa 会自动记录崩溃信息。你可以随时查看历史崩溃记录。
+当游戏发生崩溃时，MC Launcher Alpha 会自动记录崩溃信息。你可以随时查看历史崩溃记录。
 
 ### 查看步骤
 
@@ -28,7 +28,7 @@ MCLa 内置了崩溃监控系统，能够在游戏异常退出时自动捕获运
 | ModLoader | 使用的 ModLoader 及版本 | Fabric Loader 0.15.6 |
 | 错误类型 | 崩溃的根本原因分类 | `java.lang.OutOfMemoryError` |
 | 日志片段 | 崩溃前后的关键日志 | `Exception in thread "Render thread"` |
-| 分析建议 | MCLa 自动生成的修复建议 | 「建议增大最大内存至 4096MB」 |
+| 分析建议 | MC Launcher Alpha 自动生成的修复建议 | 「建议增大最大内存至 4096MB」 |
 
 ## 常见崩溃原因及解决方案
 
@@ -81,17 +81,17 @@ MCLa 内置了崩溃监控系统，能够在游戏异常退出时自动捕获运
 
 ## 提交错误报告
 
-如果你尝试了以上所有方法仍无法解决问题，可以向 MCLa 开发团队提交错误报告，以获得进一步的帮助。
+如果你尝试了以上所有方法仍无法解决问题，可以向 MC Launcher Alpha 开发团队提交错误报告，以获得进一步的帮助。
 
 ### 提交步骤
 
-1. 在 MCLa 的崩溃记录中找到对应的崩溃报告
+1. 在 MC Launcher Alpha 的崩溃记录中找到对应的崩溃报告
 2. 点击 **「导出报告」** 按钮，将崩溃信息导出为文件
-3. 前往 [GitHub Issues](https://github.com/nnkmn/MCLA/issues)
+3. 前往 [GitHub Issues](https://github.com/nnkmn/MC-Launcher-Alpha/issues)
 4. 点击「New Issue」创建新的问题报告
 5. 在报告中包含以下信息：
    - **操作系统版本**（如 Windows 11 23H2）
-   - **MCLa 版本**（如 v0.3.0）
+   - **MC Launcher Alpha 版本**（如 v0.3.0）
    - **Java 版本**（如 Java 17.0.9）
    - **游戏版本**（如 1.20.4）
    - **ModLoader 及版本**（如 Fabric Loader 0.15.6）

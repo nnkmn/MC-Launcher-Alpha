@@ -1,4 +1,4 @@
-# MC Launcher Alpha (MCLa)
+# MC Launcher Alpha (MCLA)
 
 **Minecraft Launcher Advanced** — 一个现代化的 Minecraft 启动器
 
@@ -51,7 +51,7 @@ npm run docs:preview
 
 ## 📄 协议
 
-本项目基于 [MIT 协议](https://github.com/nnkmn/MCLA/blob/main/LICENSE) 开源。
+本项目基于 [MIT 协议](https://github.com/nnkmn/MC-Launcher-Alpha/blob/main/LICENSE) 开源。
 
 > Minecraft 是 Microsoft Corporation 的商标。本项目与 Mojang Studios 或 Microsoft 无关。
 

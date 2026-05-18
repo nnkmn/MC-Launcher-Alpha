@@ -1,4 +1,4 @@
----
+﻿---
 title: "Quick Start"
 ---
 
@@ -9,7 +9,7 @@ This guide walks you through launching the game for the first time.
 ## Step Overview
 
 ```
-Install MCLa
+Install MC Launcher Alpha
   -> Add Account (Microsoft Login / Offline Mode)
   -> Install Game Version
   -> Configure Java (optional, auto-detection supported)
@@ -18,7 +18,7 @@ Install MCLa
 
 ## 1. Add Account
 
-Open MCLa and go to the **Accounts** page:
+Open MC Launcher Alpha and go to the **Accounts** page:
 
 - **Microsoft Login**: Click "Microsoft Login". A browser window will open where you can sign in with your Microsoft account credentials to authorize.
 - **Offline Mode**: Enter any username. Suitable for single-player gameplay.

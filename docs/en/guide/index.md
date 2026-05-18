@@ -1,12 +1,12 @@
 ---
-title: "MCLa User Guide"
+title: "MC Launcher Alpha User Guide"
 ---
 
-# MCLa User Guide
+# MC Launcher Alpha User Guide
 
-Welcome to the **MCLa (Minecraft Launcher Advanced)** documentation.
+Welcome to the **MC Launcher Alpha (Minecraft Launcher Advanced)** documentation.
 
-MCLa is a modern Minecraft launcher built with Electron + Vue 3 + TypeScript, featuring Microsoft account login, multi-version management, mod downloading and management, instance isolation, and more.
+MC Launcher Alpha is a modern Minecraft launcher built with Electron + Vue 3 + TypeScript, featuring Microsoft account login, multi-version management, mod downloading and management, instance isolation, and more.
 
 ## Quick Navigation
 
@@ -33,4 +33,4 @@ MCLa is a modern Minecraft launcher built with Electron + Vue 3 + TypeScript, fe
 ## Having Trouble?
 
 - Check the [FAQ](/en/guide/faq)
-- Submit a [GitHub Issue](https://github.com/nnkmn/MCLA/issues)
+- Submit a [GitHub Issue](https://github.com/nnkmn/MC-Launcher-Alpha/issues)

@@ -1,10 +1,10 @@
----
+﻿---
 title: "Mod Management"
 ---
 
 # Mod Management
 
-MCLa integrates CurseForge + Modrinth dual sources, supporting one-stop mod searching, downloading, and management.
+MC Launcher Alpha integrates CurseForge + Modrinth dual sources, supporting one-stop mod searching, downloading, and management.
 
 ## Search & Download
 
