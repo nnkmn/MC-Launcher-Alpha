@@ -4,7 +4,7 @@ title: "常见问题"
 
 # 常见问题
 
-本章节汇总了用户在使用 MC Launcher Alpha 过程中最常遇到的问题及其解决方案。如果你遇到的问题未在此列出，请参阅 [崩溃监控](/guide/crash) 或前往 [GitHub Issues](https://github.com/nnkmn/MC-Launcher-Alpha/issues) 提交反馈。
+本章节汇总了用户在使用 MC Launcher Alpha 过程中最常遇到的问题及其解决方案。如果你遇到的问题未在此列出，请参阅 [崩溃监控](/guide/crash) 或前往 [GitHub Issues](https://github.com/nnkmn/MC-Launcher-Alpha-/issues) 提交反馈。
 
 ## 启动相关
 
